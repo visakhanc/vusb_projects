@@ -1,0 +1,12 @@
+This was taken from vusb examples
+Changed to run on a usbasp hardware(official)
+D+ pin : PB1
+D- pin : PB0
+Frequency: 12MHz
+
+Tested on Dec 9, 2015
+For testing, original Fuses on usbasp was not changed;
+Compiled and programmed OK
+Plugged in and found DataStore installing on Win8.1
+hidtool.exe was compiled using MinGW
+Read and Write was successful
