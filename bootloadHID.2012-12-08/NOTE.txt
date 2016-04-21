@@ -1,0 +1,4 @@
+Tested on original USBasp board
+Changed Makefile and configuration file as needed
+(SLOW SCK jumper was used as bootloader condition)
+test_hex contains program to load using the bootloader (blinks Red LED of USBasp)

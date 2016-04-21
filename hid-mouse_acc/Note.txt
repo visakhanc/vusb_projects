@@ -1,0 +1,2 @@
+This v-usb project is based on usbXR board with RFM70 module. It is a modification of the HID-Mouse example from v-usb.
+A remote board with RFM70 module and MPU6050, transmits 3 axes raw accelerometer values (16-bits) in an 8 byte RF packet. usbXR receives the packet and X and Y accelerometer value is used (MSB 8-bits) to update dX and dY of mouse report. Sampling rate is limited by packet sending rate and here its is around 70ms, only for testing. So by tilting the remote board in each direction, mouse cursor can be moved.
