@@ -1,0 +1,15 @@
+This was taken from vusb examples
+Changed to run on a usbasp hardware(official)
+D+ pin : PB1
+D- pin : PB0
+LED pin: PC0 (Red LED)
+Frequency: 12MHz
+
+Tested on Dec 9, 2015
+For testing, original Fuses on usbasp was not changed;
+Compiled and programmed OK
+Plugged in and detected as usbasp (same vid/pid?)
+setled.exe was compiled using MinGW. 
+	Copied libusb-win32 files to MinGW: usb.h to MinGW/include and libusb.a to MinGW/lib
+Driver was already installed (usbasp) 
+LED could be controlled by setled.exe

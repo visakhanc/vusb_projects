@@ -1,0 +1,11 @@
+This was taken from vusb examples
+Changed to run on official usbasp hardware
+D+ pin : PB1
+D- pin : PB0
+Frequency: 12MHz
+
+Tested on Dec 9, 2015
+For testing, original Fuses on usbasp was not changed;
+Compiled and programmed OK
+Plugged in and found Mouse installing on Win8.1
+Mouse cursor kept moving in a circular path!

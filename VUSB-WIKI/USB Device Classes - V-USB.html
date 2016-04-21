@@ -1,0 +1,639 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0042)http://vusb.wikidot.com/usb-device-classes -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>USB Device Classes - V-USB</title>
+    
+    
+    
+    <script type="text/javascript" async="" src="./USB Device Classes - V-USB_files/vglnk.js"></script><script type="text/javascript" async="" src="./USB Device Classes - V-USB_files/quant.js"></script><script type="text/javascript" async="" src="./USB Device Classes - V-USB_files/dc.js"></script><script async="" type="text/javascript" src="./USB Device Classes - V-USB_files/gpt.js"></script><script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+    // DEFINE DFP SLOTS
+googletag.defineSlot('/1030917/wikidot_free_sites_top_728x90', [728, 90], 'div-gpt-ad-1410946564449-1').addService(googletag.pubads());
+googletag.defineSlot('/1030917/wikidot_free_sites_bottom_300x250', [300, 250], 'div-gpt-ad-1410946564449-0').addService(googletag.pubads());
+googletag.defineOutOfPageSlot('/1030917/out_of_page', 'div-gpt-ad-1411637977813-0-oop').addService(googletag.pubads());
+
+// googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs(true, true);
+googletag.pubads().setTargeting("w_name", "vusb");
+googletag.pubads().setTargeting("w_domain", "com.wikidot.vusb");
+googletag.pubads().setTargeting("w_verified", "true");
+if(["software","hardware"]){googletag.pubads().setTargeting("w_cats", ["software","hardware"]);}
+if(false){googletag.pubads().setTargeting("w_mn", "true");}
+googletag.enableServices();
+});
+</script>
+<script type="text/javascript" src="./USB Device Classes - V-USB_files/init.combined.js"></script>
+    <script type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--36f39eeea923';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "vusb.wikidot.com";
+        WIKIREQUEST.info.siteId = 40656;
+        WIKIREQUEST.info.siteUnixName = "vusb";
+        WIKIREQUEST.info.categoryId = 226337;
+        WIKIREQUEST.info.themeId = 2437;
+        WIKIREQUEST.info.requestPageName = "usb-device-classes";
+        OZONE.request.timestamp = 1450879797;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'en';
+                WIKIREQUEST.info.pageUnixName = "usb-device-classes";
+        WIKIREQUEST.info.pageId = 1118145;
+                        WIKIREQUEST.info.lang = "en";
+        OZONE.lang = "en";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    
+            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="en">
+    <script type="text/javascript" src="./USB Device Classes - V-USB_files/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css">
+body {
+  background-position: center 24px;
+}
+</style>
+<style type="text/css" id="internal-style">
+        
+        /* modules */
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--36f39eeea923/common--theme/base/css/style.css);
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--36f39eeea923/common--theme/webbish2/css/style.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="http://vusb.wikidot.com/local--favicon/favicon.gif">
+    <link rel="icon" type="image/gif" href="http://vusb.wikidot.com/local--favicon/favicon.gif">
+    
+            <link rel="apple-touch-icon" href="http://vusb.wikidot.com/common--images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://vusb.wikidot.com/common--images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://vusb.wikidot.com/common--images/apple-touch-icon-114x114.png">
+        
+        
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript:WIKIDOT.page.listeners.editClick()">
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script><style type="text/css"></style>
+    
+    <script src="./USB Device Classes - V-USB_files/pubads_impl_78.js" async=""></script><script type="text/javascript" async="" src="http://a.getgamers.eu/?id=9877320"></script></head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
+<div id="navi-bar">
+  <a class="logo" href="http://www.wikidot.com/">
+    <span>Wikidot.com</span>
+  </a>
+  
+  <div class="new-site">
+    <form method="get" action="http://www.wikidot.com/new-site">
+      <input class="text empty" type="text" name="address" value="site-name">.wikidot.com
+    </form>
+  </div>
+  
+    <div class="share">
+    <span>Share on</span>
+    <a class="twitter" target="_blank" rel="nofollow" href="http://twitter.com/home?status=USB%20Device%20Classes%20-%20V-USB+http%3A%2F%2Fvusb.wikidot.com%2Fusb-device-classes" title="Share on Twitter"><img src="./USB Device Classes - V-USB_files/twitter.png" alt="twitter"></a>  
+    <a class="facebook" target="_blank" rel="nofollow" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fvusb.wikidot.com%2Fusb-device-classes&amp;t=USB%20Device%20Classes%20-%20V-USB" title="Share on Facebook"><img src="./USB Device Classes - V-USB_files/facebook.gif" alt="Facebook"></a>  
+    <a class="delicious" target="_blank" rel="nofollow" href="http://delicious.com/save" title="Share on Delicious"><img src="./USB Device Classes - V-USB_files/delicious.png" alt="Delicious"></a>
+    <a class="digg" target="_blank" rel="nofollow" href="http://digg.com/submit?url=http%3A%2F%2Fvusb.wikidot.com%2Fusb-device-classes&amp;title=USB%20Device%20Classes%20-%20V-USB" title="Post to Digg"><img src="./USB Device Classes - V-USB_files/digg.png" alt="Digg"></a>
+    <a class="reddit" href="http://www.reddit.com/submit?url=http%3A%2F%2Fvusb.wikidot.com%2Fusb-device-classes" rel="nofollow" target="_blank" title="Post to Reddit"><img src="./USB Device Classes - V-USB_files/reddit.png" alt="Reddit" border="0"></a>
+    <a class="stumbleupon" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fvusb.wikidot.com%2Fusb-device-classes" rel="nofollow" target="_blank" title="Post to StumbleUpon"><img src="./USB Device Classes - V-USB_files/stumble.png" alt="Reddit" border="0"></a>
+  </div>
+    
+      <a class="join" href="javascript:;" onclick="WIKIDOT.page.listeners.join(event, &#39;unified&#39;)">Join this site</a>
+    
+      <div class="action-buttons">
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.editClick(event)" title="Click here to edit contents of this page.">Edit</a>
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.historyClick(event)" title="Check out how this page has evolved in the past.">History</a>
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.editTags(event)" title="Edit tags for this page.">Tags</a>
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.viewSourceClick(event)" title="View wiki source for this page without editing.">Source</a>
+    </div>
+    
+  <a class="random-site" href="http://vusb.wikidot.com/random-site.php" title="Go to a random Wikidot site.">Explore »</a>
+  </div>
+<div id="navi-bar-shadow">&nbsp;</div>
+
+
+<script type="text/javascript">
+  //<![CDATA[
+  $j(function(){
+    var uri = window.location.href;
+    var title = document.title
+    
+    $j('#navi-bar .share a').each(function(){
+      $t = $j(this);
+      var u = $t.attr('href');
+      u = u.replace(/TITLE/, encodeURIComponent(title)).replace(/URI/, encodeURIComponent(uri));
+      $t.attr('href', u);
+    });
+    
+    $j('#navi-bar .share .facebook').click(function(e){
+      window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(uri)+'&t='+encodeURIComponent(title),'sharer','toolbar=0,status=0,width=626,height=436');
+      e.preventDefault();
+    });
+    $j('#navi-bar .share .delicious').click(function(e){
+      window.open('http://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550');
+      e.preventDefault();
+    });
+  });
+  
+	$j('#navi-bar .new-site form').submit(function(e){
+	  e.preventDefault();
+	  var $i = $j('#navi-bar .new-site form input.text');
+	  if($i.hasClass('empty')){
+	    	var w = new OZONE.dialogs.ErrorDialog();
+  			w.content = "You need to enter a valid web address for your new wiki.";
+  			w.show();
+  			return;
+    }
+    var siteName = $i.attr('value');
+    siteName = siteName.replace(/^\s+/, '').replace(/\s+$/,'');
+		var p = {};
+		p.action = 'wiki/special/NewWikiWidgetAction';
+		p.event = 'newWiki';
+		p.siteName = siteName;
+		OZONE.ajax.requestModule(null, p, function(r){
+		  if(r.status == 'site_exists'){
+		    window.location.href = 'http://' + siteName + '.' + URL_DOMAIN;
+		    return;
+		  }
+		  if(!WIKIDOT.utils.handleError(r)) {return;}
+  		// seems fine.
+  		window.location.href='http://'+URL_HOST+'/new-site/address/'+r.unixName;
+		});
+	});
+	$j('#navi-bar .new-site form input.text').focus(function(){
+	  var $t = $j(this);
+	  if($t.hasClass('empty')){
+	    $t.removeClass('empty');
+	    $t.attr('value', '');
+	  }
+	});
+	//]]>
+</script>
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="http://vusb.wikidot.com/"><span>V-USB</span></a></h1>
+                
+                    <h2><span>A Firmware-Only USB Driver for the AVR</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="http://vusb.wikidot.com/dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="Search this site" onfocus="if(YAHOO.util.Dom.hasClass(this, &#39;empty&#39;)){YAHOO.util.Dom.removeClass(this,&#39;empty&#39;); this.value=&#39;&#39;;}"><input class="button btn" type="submit" name="search" value="Search">
+    </form>
+</div>
+                
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">Create account</a> <span>or</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">Sign in</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<h2><span>Navigation</span></h2>
+<ul>
+<li><a href="http://vusb.wikidot.com/start">About this Wiki</a></li>
+<li><a href="http://vusb.wikidot.com/hardware">Hardware Considerations</a></li>
+<li><a href="./USB Device Classes - V-USB_files/USB Device Classes - V-USB.html" class="active">USB Device Classes</a></li>
+<li><a href="http://vusb.wikidot.com/driver-api">Driver API</a></li>
+<li><a href="http://vusb.wikidot.com/host-software">Host Software</a></li>
+<li><a href="http://vusb.wikidot.com/examples">Features by Example</a></li>
+<li><a href="http://vusb.wikidot.com/troubleshooting">Troubleshooting</a></li>
+<li><a href="http://vusb.wikidot.com/hosted-projects">Projects Hosted on Wiki</a></li>
+</ul>
+<h2><span>Utilities</span></h2>
+<ul>
+<li><a href="http://vusb.wikidot.com/add-a-page">Add a Page</a></li>
+<li><a href="http://vusb.wikidot.com/system:recent-changes">Recent Changes</a></li>
+<li><a href="http://vusb.wikidot.com/system:join">Become a Member</a></li>
+<li><a href="http://vusb.wikidot.com/system:members">Site Members</a></li>
+<li><a href="http://vusb.wikidot.com/admin:manage">Manage this Site</a></li>
+</ul>
+<p style="text-align: center;"><span style="font-size:80%;"><a href="http://vusb.wikidot.com/nav:side">edit menu</a></span></p>
+
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            USB Device Classes
+                        </div>
+                    
+
+                    
+
+                                    <!-- wikidot_top_728x90 -->
+<div id="div-gpt-ad-1410946564449-1" style="display: none" class="wd-adunit wd-adunit-dfp wd-adunit-above_content">
+
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410946564449-1'); });
+</script>
+<div id="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0" name="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div><iframe id="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0__hidden__" name="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div>
+
+            
+
+
+                    <div id="page-content">
+                        
+
+<p>USB is much more complex than e.g. a serial interface. The standard defines not only how the bits are transferred, but also how information about a device can be obtained by the host. Every USB device must comply to this basic protocol.</p>
+<p>When you implement a USB device, you must decide how it should present itself to the host. The basics common to all classes are handled by the driver itself. For the rest, you can choose among various device classes and each class has its advantages and disadvantages:</p>
+<h2 id="toc0"><span>Custom class devices</span></h2>
+<p>The most straight forward way to implement a device is by choosing class Custom, which basically means that you comply to no known class. Data can be transferred in blocks up to 254 bytes in both directions over the default control endpoint. An example for a very simple custom class device is <a href="http://www.obdev.at/avrusb/powerswitch.html">PowerSwitch</a>. If required, interrupt endpoints can be added for stream-type data or to send spontaneous notifications to the host. An example for this can be found in the <a href="http://www.obdev.at/products/vusb/remotesensor.html">RemoteSensor</a> project.</p>
+<p>Advantages:</p>
+<ul>
+<li>Easy to implement on the device.</li>
+<li>Easy to write host side software on Unix.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>On Windows, a driver DLL must be installed. This means that the host application can't be run without installation.</li>
+<li>You <em>must</em> provide software for the host to control the device.</li>
+</ul>
+<p>We recommend <a href="http://libusb.sourceforge.net/">libusb</a> or <a href="http://libusb-win32.sourceforge.net/">libusb-win32</a> for implementing the host software.</p>
+<h2 id="toc1"><span>Standard HID class device</span></h2>
+<p>You can design your device to look like a standard USB keyboard, mouse or joystick and every application will be interoperable with your device without additional drivers. Since you adhere to the class specification, the operating system's driver knows how to communicate with your device.</p>
+<p>Advantages:</p>
+<ul>
+<li>No driver required on host.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Can only be used for <a href="http://www.usb.org/developers/hidpage/">standardized Human Interface Devices</a> like mice, keyboard, joystick, power source, point-of-sale equipment etc.</li>
+<li>A HID Report Descriptor must be constructed to describe the data sent to the host. This may be tedious.</li>
+</ul>
+<p>Examples for standard HID class devices can be found <a href="http://www.obdev.at/avrusb/prjhid.html">here</a>.</p>
+<h2 id="toc2"><span>Custom HID class device</span></h2>
+<p>The HID class defines a kind of data description language where the data sent to or received from a device can be described. The description contains not only the data format, but also the meaning of the entries. However, it is possible to <em>misuse</em> reports to send and receive arbitrary blocks data to/from the device.</p>
+<p>You may ask why we don't use a custom class device if we want to exchange arbitrary blocks of data? Well, you can circumvent shortcomings of Microsoft Windows with this technique. Since Windows has a DLL responsible for all kind of HID devices, you don't need your own driver DLL and hence no installation.</p>
+<p>Advantages:</p>
+<ul>
+<li>Windows software needs no driver DLL and hence no installation.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Since the structure of the data blocks must be described in Report Descriptors, only fixed length blocks can be transferred. (It is possible to circumvent this limitation with a protocol layer on top of some fixed size blocks, see the <a href="http://www.obdev.at/avrusb/avrdoper.html">AVR-Doper</a> project.)</li>
+<li>Some operating systems (notably BSD) automatically bind the HID driver to the device and limit access through libusb.</li>
+<li>Different driver API on Windows and Unix since libusb is used on Unix but not on Windows.</li>
+<li>Increased complexity.</li>
+</ul>
+<p>Examples for this type of interfacing are <a href="http://www.obdev.at/avrusb/automator.html">Automator</a> and <a href="http://www.obdev.at/avrusb/avrdoper.html">AVR-Doper</a> .</p>
+<h2 id="toc3"><span>Vendor type requests sent to custom HID class device</span></h2>
+<p>The advantages of a custom class and a HID device can be (kind of) combined. Libusb can access endpoint 0 of all devices, even those which already have a driver attached to them such as HID devices.</p>
+<p>You can therefore create an HID class device with a simple report structure which is never used. This prevents the "New Device" dialog on Windows. Then access it with libusb or libusb-win32 as if it were a custom class device.</p>
+<p>Advantages:</p>
+<ul>
+<li>Complexity of HID can be avoided.</li>
+<li>Same API can be used on Unix and Windows.</li>
+<li>Prevents the "New Device" dialog on Windows.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>On Windows, you still must ship libusb-win32 with your code. However, it's sufficient to have it in the same directory as your application.</li>
+</ul>
+<h2 id="toc4"><span>CDC class devices</span></h2>
+<p>The USB CDC class is intended for modems and other communication devices. Implementing this class, it is possible to simulate a modem and thus a serial interface ("virtual com port"). Drivers for this class are included in all modern operating systems.</p>
+<p>CDC requires bulk endpoints which are forbidden for low speed devices by the USB specification. However, most operating systems don't care and CDC works. There are still many drawbacks involved (see disadvantages below) and the main purpose of implementing this class is to simulate older devices which had a serial interface.</p>
+<p>Advantages:</p>
+<ul>
+<li>Devices compatible to old serial gadgets can be built.</li>
+<li>Communication parameters (bit rate, parity etc.) can't be wrong because they are ignored.</li>
+<li>Host side programming interface is well known and understood by most hobbyists.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Violates the standard.</li>
+<li>Does not work with some versions of Linux (in combination with particular USB host controllers).</li>
+<li>Consumes ca. 90% or more of the AVR's CPU time because bulk endpoints are polled aggressively by the host. Real-time applications on the AVR are close to impossible.</li>
+<li>May become unreliable if other interrupts are used on the AVR.</li>
+<li>Requires an INF file on Windows which binds the device to the CDC driver DLLs. These DLLs differ from Windows version to version.</li>
+</ul>
+<p>Examples for this type of device: <a href="http://www.recursion.jp/avrcdc/">AVR-CDC</a> and <a href="http://www.obdev.at/avrusb/avrdoper.html">AVR-Doper</a>.</p>
+<p>Some versions of Linux try to map bulk endpoints to interrupt endpoints on low speed devices and this mapping is broken. You need a kernel patch (included in the newest vanilla kernels &gt;=2.6.23) on these kernels. Windows Vista enforces the standard and you need a driver to map the bulk endpoints to interrupt endpoints. See <a href="http://www.obdev.at/goto.php?t=lowbulk">Osamu Tamura's site</a> for details.</p>
+<h2 id="toc5"><span>Other classes</span></h2>
+<p>V-USB can be used to implement other classes as well, of course. Please extend this section if you have more information.</p>
+
+                    </div>
+
+                                    <!-- wikidot_bottom_300x250 -->
+<div id="div-gpt-ad-1410946564449-0" style="display: none" class="wd-adunit wd-adunit-dfp wd-adunit-below_content">
+
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410946564449-0'); });
+</script>
+<div id="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0" name="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div><iframe id="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0__hidden__" name="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div>
+
+            
+
+
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">page revision: 14, last edited: <span class="odate time_1240423930 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20ago%29" style="display: inline;">22 Apr 2009, 23:42 (2435 days ago)</span></div>
+            <div id="page-options-bottom" class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">Edit</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">Tags</a>
+
+<a href="javascript:;" class="btn btn-default" id="history-button">History</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">Files</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">Print</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">Site tools</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;Options</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">Edit Sections</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">Append</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">Edit Meta</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">Watchers</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">Backlinks</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">Page Source</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">Parent</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">Lock Page</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">Rename</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">Delete</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">Help</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">Terms of Service</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">Privacy</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">Report a bug</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">Flag as objectionable</a>
+</div>
+Powered by <a href="http://www.wikidot.com/">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    Unless otherwise stated, the content of this page is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                <div id="footer-bar">
+  <div>
+     </div>
+  <h2>Other interesting sites</h2>
+  
+  <div class="units">
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://ci-wiki.wikidot.com/">
+              <img class="thumbnail" alt="" src="./USB Device Classes - V-USB_files/80.jpg">
+            </a>
+            <h3><a target="_blank" href="http://ci-wiki.wikidot.com/">The Chaos Insurgency</a></h3>
+            <div class="desc">          
+              Creating Logic out of Illogic
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://ci-sandbox.wikidot.com/">
+              <img class="thumbnail" alt="" src="./USB Device Classes - V-USB_files/80(1).jpg">
+            </a>
+            <h3><a target="_blank" href="http://ci-sandbox.wikidot.com/">The CI Sandbox</a></h3>
+            <div class="desc">          
+              Illogic trying to become logic
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://nimin.wikidot.com/">
+              <img class="thumbnail" alt="" src="./USB Device Classes - V-USB_files/80(2).jpg">
+            </a>
+            <h3><a target="_blank" href="http://nimin.wikidot.com/">Nimin Wiki</a></h3>
+            <div class="desc">          
+              The best text-based mature RPG database that anyone can edit!
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://junkojunsui.wikidot.com/">
+              <img class="thumbnail" alt="" src="./USB Device Classes - V-USB_files/80(3).jpg">
+            </a>
+            <h3><a target="_blank" href="http://junkojunsui.wikidot.com/">Junko Junsui</a></h3>
+            <div class="desc">          
+              
+            </div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+                <!-- out_of_page -->
+
+<div id="div-gpt-ad-1411637977813-0-oop" style="display: none;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1411637977813-0-oop'); });
+</script>
+<div id="google_ads_iframe_/1030917/out_of_page_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1030917/out_of_page_0" name="google_ads_iframe_/1030917/out_of_page_0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div><iframe id="google_ads_iframe_/1030917/out_of_page_0__hidden__" name="google_ads_iframe_/1030917/out_of_page_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div>
+
+            
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;"></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        &lt;img src="http://pixel.quantserve.com/pixel/p-edL3gsnUjJzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/&gt;
+    </noscript>
+
+
+
+<script type="text/javascript">
+  var vglnk = { api_url: '//api.viglink.com/api',
+                key: '3755fbf465dcd24d7f23d703cb98f0bd' };
+
+  (function(d, t) {
+    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+             '//cdn.viglink.com/api') + '/vglnk.js';
+    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script><script type="text/javascript">
+(function() {
+var d=document,
+h=d.getElementsByTagName("head")[0],
+s=d.createElement("script");
+s.type="text/javascript";
+s.async=true;
+s.src="http://a.getgamers.eu/?id=9877320";
+h.appendChild(s);
+}());
+</script><iframe src="about:blank" width="0" height="0" style="visibility: hidden !important; display: none !important; opacity: 0 !important;"></iframe>
+
+<div id="page-options-bottom-tips" style="display: none;">
+    
+</div>
+<div id="page-options-bottom-2-tips" style="display: none;">
+    
+    
+    
+    <div id="discuss-button-hovertip">
+        If you want to discuss contents of this page - this is the easiest way to do it.    </div>
+    
+    
+    
+    
+    
+    
+            
+        
+        
+        
+        
+    </div>
+
+<div id="odialog-hovertips" style="position: absolute; z-index: 100; top: 0px; width: 100%;"><div id="edit-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Click here to edit contents of this page.    </div></div><div id="edit-sections-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Click here to toggle editing of individual sections of the page (if possible).         Watch headings for an "edit" link when available.    </div></div><div id="edit-append-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Append content without editing the whole page source.    </div></div><div id="history-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Check out how this page has evolved in the past.    </div></div><div id="files-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        View and manage file attachments for this page.    </div></div><div id="site-tools-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        A few useful tools to manage this Site.    </div></div><div id="backlinks-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        See pages that link to and include this page.    </div></div><div id="rename-move-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Change the name (also URL address, possibly the category) of the page.    </div></div><div id="view-source-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        View wiki source for this page without editing.    </div></div><div id="parent-page-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">  
+        View/set parent page (used for creating breadcrumbs and structured layout).    </div></div><div id="abuse-report-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            Notify administrators if there is objectionable content in this page.        </div></div><div id="bug-report-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            Something does not work as expected? Find out what you can do.        </div></div><div id="wikidot-help-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            General Wikidot.com documentation and help section.        </div></div><div id="wikidot-tos-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            Wikidot.com Terms of Service - what you can, what you should not etc.        </div></div><div id="wikidot-privacy-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            Wikidot.com Privacy Policy.          
+        </div></div></div></body></html>

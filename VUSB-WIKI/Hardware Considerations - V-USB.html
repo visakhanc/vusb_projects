@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0032)http://vusb.wikidot.com/hardware -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hardware Considerations - V-USB</title>
+    
+    
+    
+    <script type="text/javascript" async="" src="./Hardware Considerations - V-USB_files/vglnk.js"></script><script type="text/javascript" async="" src="./Hardware Considerations - V-USB_files/quant.js"></script><script type="text/javascript" async="" src="./Hardware Considerations - V-USB_files/dc.js"></script><script async="" type="text/javascript" src="./Hardware Considerations - V-USB_files/gpt.js"></script><script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+    // DEFINE DFP SLOTS
+googletag.defineSlot('/1030917/wikidot_free_sites_top_728x90', [728, 90], 'div-gpt-ad-1410946564449-1').addService(googletag.pubads());
+googletag.defineSlot('/1030917/wikidot_free_sites_bottom_300x250', [300, 250], 'div-gpt-ad-1410946564449-0').addService(googletag.pubads());
+googletag.defineOutOfPageSlot('/1030917/out_of_page', 'div-gpt-ad-1411637977813-0-oop').addService(googletag.pubads());
+
+// googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs(true, true);
+googletag.pubads().setTargeting("w_name", "vusb");
+googletag.pubads().setTargeting("w_domain", "com.wikidot.vusb");
+googletag.pubads().setTargeting("w_verified", "true");
+if(["software","hardware"]){googletag.pubads().setTargeting("w_cats", ["software","hardware"]);}
+if(false){googletag.pubads().setTargeting("w_mn", "true");}
+googletag.enableServices();
+});
+</script>
+<script type="text/javascript" src="./Hardware Considerations - V-USB_files/init.combined.js"></script>
+    <script type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--36f39eeea923';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "vusb.wikidot.com";
+        WIKIREQUEST.info.siteId = 40656;
+        WIKIREQUEST.info.siteUnixName = "vusb";
+        WIKIREQUEST.info.categoryId = 226337;
+        WIKIREQUEST.info.themeId = 2437;
+        WIKIREQUEST.info.requestPageName = "hardware";
+        OZONE.request.timestamp = 1450879783;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'en';
+                WIKIREQUEST.info.pageUnixName = "hardware";
+        WIKIREQUEST.info.pageId = 1116133;
+                        WIKIREQUEST.info.lang = "en";
+        OZONE.lang = "en";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    
+            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="en">
+    <script type="text/javascript" src="./Hardware Considerations - V-USB_files/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css">
+body {
+  background-position: center 24px;
+}
+</style>
+<style type="text/css" id="internal-style">
+        
+        /* modules */
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--36f39eeea923/common--theme/base/css/style.css);
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--36f39eeea923/common--theme/webbish2/css/style.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="http://vusb.wikidot.com/local--favicon/favicon.gif">
+    <link rel="icon" type="image/gif" href="http://vusb.wikidot.com/local--favicon/favicon.gif">
+    
+            <link rel="apple-touch-icon" href="http://vusb.wikidot.com/common--images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://vusb.wikidot.com/common--images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://vusb.wikidot.com/common--images/apple-touch-icon-114x114.png">
+        
+        
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript:WIKIDOT.page.listeners.editClick()">
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script><script src="./Hardware Considerations - V-USB_files/pubads_impl_78.js" async=""></script><iframe src="about:blank" width="0" height="0" style="visibility: hidden !important; display: none !important; opacity: 0 !important;"></iframe><style type="text/css"></style>
+    
+    <script type="text/javascript" async="" src="http://a.getgamers.eu/?id=9877320"></script></head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
+<div id="navi-bar">
+  <a class="logo" href="http://www.wikidot.com/">
+    <span>Wikidot.com</span>
+  </a>
+  
+  <div class="new-site">
+    <form method="get" action="http://www.wikidot.com/new-site">
+      <input class="text empty" type="text" name="address" value="site-name">.<a class="vglnk" href="http://wikidot.com/" rel="nofollow"><span>wikidot</span><span>.</span><span>com</span></a>
+    </form>
+  </div>
+  
+    <div class="share">
+    <span>Share on</span>
+    <a class="twitter" target="_blank" rel="nofollow" href="http://twitter.com/home?status=Hardware%20Considerations%20-%20V-USB+http%3A%2F%2Fvusb.wikidot.com%2Fhardware" title="Share on Twitter"><img src="./Hardware Considerations - V-USB_files/twitter.png" alt="twitter"></a>  
+    <a class="facebook" target="_blank" rel="nofollow" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fvusb.wikidot.com%2Fhardware&amp;t=Hardware%20Considerations%20-%20V-USB" title="Share on Facebook"><img src="./Hardware Considerations - V-USB_files/facebook.gif" alt="Facebook"></a>  
+    <a class="delicious" target="_blank" rel="nofollow" href="http://delicious.com/save" title="Share on Delicious"><img src="./Hardware Considerations - V-USB_files/delicious.png" alt="Delicious"></a>
+    <a class="digg" target="_blank" rel="nofollow" href="http://digg.com/submit?url=http%3A%2F%2Fvusb.wikidot.com%2Fhardware&amp;title=Hardware%20Considerations%20-%20V-USB" title="Post to Digg"><img src="./Hardware Considerations - V-USB_files/digg.png" alt="Digg"></a>
+    <a class="reddit" href="http://www.reddit.com/submit?url=http%3A%2F%2Fvusb.wikidot.com%2Fhardware" rel="nofollow" target="_blank" title="Post to Reddit"><img src="./Hardware Considerations - V-USB_files/reddit.png" alt="Reddit" border="0"></a>
+    <a class="stumbleupon" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fvusb.wikidot.com%2Fhardware" rel="nofollow" target="_blank" title="Post to StumbleUpon"><img src="./Hardware Considerations - V-USB_files/stumble.png" alt="Reddit" border="0"></a>
+  </div>
+    
+      <a class="join" href="javascript:;" onclick="WIKIDOT.page.listeners.join(event, &#39;unified&#39;)">Join this site</a>
+    
+      <div class="action-buttons">
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.editClick(event)" title="Click here to edit contents of this page.">Edit</a>
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.historyClick(event)" title="Check out how this page has evolved in the past.">History</a>
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.editTags(event)" title="Edit tags for this page.">Tags</a>
+      <a href="javascript:;" onclick="WIKIDOT.page.listeners.viewSourceClick(event)" title="View wiki source for this page without editing.">Source</a>
+    </div>
+    
+  <a class="random-site" href="http://vusb.wikidot.com/random-site.php" title="Go to a random Wikidot site.">Explore »</a>
+  </div>
+<div id="navi-bar-shadow">&nbsp;</div>
+
+
+<script type="text/javascript">
+  //<![CDATA[
+  $j(function(){
+    var uri = window.location.href;
+    var title = document.title
+    
+    $j('#navi-bar .share a').each(function(){
+      $t = $j(this);
+      var u = $t.attr('href');
+      u = u.replace(/TITLE/, encodeURIComponent(title)).replace(/URI/, encodeURIComponent(uri));
+      $t.attr('href', u);
+    });
+    
+    $j('#navi-bar .share .facebook').click(function(e){
+      window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(uri)+'&t='+encodeURIComponent(title),'sharer','toolbar=0,status=0,width=626,height=436');
+      e.preventDefault();
+    });
+    $j('#navi-bar .share .delicious').click(function(e){
+      window.open('http://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550');
+      e.preventDefault();
+    });
+  });
+  
+	$j('#navi-bar .new-site form').submit(function(e){
+	  e.preventDefault();
+	  var $i = $j('#navi-bar .new-site form input.text');
+	  if($i.hasClass('empty')){
+	    	var w = new OZONE.dialogs.ErrorDialog();
+  			w.content = "You need to enter a valid web address for your new wiki.";
+  			w.show();
+  			return;
+    }
+    var siteName = $i.attr('value');
+    siteName = siteName.replace(/^\s+/, '').replace(/\s+$/,'');
+		var p = {};
+		p.action = 'wiki/special/NewWikiWidgetAction';
+		p.event = 'newWiki';
+		p.siteName = siteName;
+		OZONE.ajax.requestModule(null, p, function(r){
+		  if(r.status == 'site_exists'){
+		    window.location.href = 'http://' + siteName + '.' + URL_DOMAIN;
+		    return;
+		  }
+		  if(!WIKIDOT.utils.handleError(r)) {return;}
+  		// seems fine.
+  		window.location.href='http://'+URL_HOST+'/new-site/address/'+r.unixName;
+		});
+	});
+	$j('#navi-bar .new-site form input.text').focus(function(){
+	  var $t = $j(this);
+	  if($t.hasClass('empty')){
+	    $t.removeClass('empty');
+	    $t.attr('value', '');
+	  }
+	});
+	//]]>
+</script>
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="http://vusb.wikidot.com/"><span>V-USB</span></a></h1>
+                
+                    <h2><span>A Firmware-Only USB Driver for the AVR</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="http://vusb.wikidot.com/dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="Search this site" onfocus="if(YAHOO.util.Dom.hasClass(this, &#39;empty&#39;)){YAHOO.util.Dom.removeClass(this,&#39;empty&#39;); this.value=&#39;&#39;;}"><input class="button btn" type="submit" name="search" value="Search">
+    </form>
+</div>
+                
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">Create account</a> <span>or</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">Sign in</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<h2><span>Navigation</span></h2>
+<ul>
+<li><a href="http://vusb.wikidot.com/start">About this Wiki</a></li>
+<li><a href="./Hardware Considerations - V-USB_files/Hardware Considerations - V-USB.html" class="active">Hardware Considerations</a></li>
+<li><a href="http://vusb.wikidot.com/usb-device-classes">USB Device Classes</a></li>
+<li><a href="http://vusb.wikidot.com/driver-api">Driver API</a></li>
+<li><a href="http://vusb.wikidot.com/host-software">Host Software</a></li>
+<li><a href="http://vusb.wikidot.com/examples">Features by Example</a></li>
+<li><a href="http://vusb.wikidot.com/troubleshooting">Troubleshooting</a></li>
+<li><a href="http://vusb.wikidot.com/hosted-projects">Projects Hosted on Wiki</a></li>
+</ul>
+<h2><span>Utilities</span></h2>
+<ul>
+<li><a href="http://vusb.wikidot.com/add-a-page">Add a Page</a></li>
+<li><a href="http://vusb.wikidot.com/system:recent-changes">Recent Changes</a></li>
+<li><a href="http://vusb.wikidot.com/system:join">Become a Member</a></li>
+<li><a href="http://vusb.wikidot.com/system:members">Site Members</a></li>
+<li><a href="http://vusb.wikidot.com/admin:manage">Manage this Site</a></li>
+</ul>
+<p style="text-align: center;"><span style="font-size:80%;"><a href="http://vusb.wikidot.com/nav:side">edit menu</a></span></p>
+
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            Hardware Considerations
+                        </div>
+                    
+
+                    
+
+                                    <!-- wikidot_top_728x90 -->
+<div id="div-gpt-ad-1410946564449-1" style="display: none" class="wd-adunit wd-adunit-dfp wd-adunit-above_content">
+
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410946564449-1'); });
+</script><div id="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0" name="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div><iframe id="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0__hidden__" name="google_ads_iframe_/1030917/wikidot_free_sites_top_728x90_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe>
+</div>
+
+            
+
+
+                    <div id="page-content">
+                        
+
+<h2 id="toc0"><span>Prototyping board:</span></h2>
+<p>Many people ask for a prototyping board for V-USB. There are a few available:</p>
+<p><a href="http://metalab.at/wiki/Metaboard">Metaboard</a>. This board is not available for sale, but it is very easy to build it yourself. It's a single sided board which can be easily etched at home.</p>
+<p><a href="http://www.makehackvoid.com/group-projects/mhvboard-arduino-clone">MHVBoard</a>. A 20MHz ATmega328P kit based on the Metaboard, and available for purchase. Includes Arduino shield &amp; breadboard compatibility, proto area, TTL serial &amp; ICSP.</p>
+<p><a href="http://frank.circleofcurrent.com/usnoobie/">USnooBie</a>. ATmega328P based development kit with V-USB circuitry. Designed in a thin shape for breadboard use. Provides bootloading features and selectable operating voltage.</p>
+<p><a href="http://www.sparkfun.com/commerce/product_info.php?products_id=9147">AVR Stick</a>. This board combines an ATtiny85 with the recommended V-USB hardware on a small stick shaped board which plugs directly into an USB port.</p>
+<p><a href="http://www.thaieasyelec.net/index.php//Arduino/AVR-USB-DuinoThumb-V2-0-Compatible-with-Arduino-Project-/p_63.html">DuinoThumb</a>. This is a ATmega168 based development board that features V-USB hardware with a USB-A male connector. The pins of the ATmega168 are connected to female pin headers.</p>
+<h2 id="toc1"><span>The voltage level problem</span></h2>
+<p>Devices based on V-USB cannot comply to the electrical specifications of the USB standard because the AVR's I/O characteristics don't match the requirements of USB. However, we can get close enough to make it work reliably.</p>
+<p>Each end of the communication (the host and the device) requires particular voltage levels for a High or Low signal. The other end must generate voltages in these ranges for reliable communication. Exact characteristics are defined in the USB specification.</p>
+<p>Since the host side is fixed, we must accommodate the levels sent and expected. The host sends 0&nbsp;V for a Low level and 3.3&nbsp;V for a High level. These levels are pretty precise, even if the specification allows tolerances. This is usually no problem, regardless of the supply voltage of the AVR. Even 5&nbsp;V designs detect 3.3&nbsp;V reliably as High level.</p>
+<p>The other direction is more problematic: The host expects 0&nbsp;V to 0.8&nbsp;V for a Low level and 2&nbsp;V to 3.6&nbsp;V for a High level. Some hosts allow up to 5&nbsp;V for High level, but some don't. In order to meet this requirement, we must either power the AVR at a voltage between 2 and 3.6&nbsp;V or insert some kind of level conversion in the USB data lines.</p>
+<h3 id="toc2"><span>Solution A: Reduced supply voltage for the AVR</span></h3>
+<div class="image-container floatright"><img src="./Hardware Considerations - V-USB_files/voltage-regulator.gif" alt="Voltage reduction with low drop regulator." class="image"></div>
+<p>One solution to the level conversion problem is to supply the AVR with a reduced voltage, usually in the range of 3.3 to 3.6&nbsp;V. Since the USB power supply is in the range of 4.5 to 5.25&nbsp;V, we need a low drop voltage regulator. Advantages of this solution are:</p>
+<ul>
+<li>Clean solution, fast transitions on D+ and D-.</li>
+<li>Good noise immunity for signal input.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Low drop regulators are often expensive and harder to obtain.</li>
+<li>Many AVRs are not specified for the required clock rates at supply voltages below 4.5&nbsp;V.</li>
+<li>Other chips on the board may not be specified for 3.3&nbsp;V.</li>
+</ul>
+<p>Note that using low-drop regulators LE33CZ, or even worse, LM1117S33, imposes additional supply current (quiescent current) that violates the 500&nbsp;µA limit for USB standby. Because the 1.5 kΩ pull-up contributes 200&nbsp;µA, only 299&nbsp;µA are allowed for the regulator if the ATmega is in its deep standby drawing less than 1&nbsp;µA. For compliance with the USB standard, very low-power low-drop regulators like <a href="http://focus.ti.com/docs/prod/folders/print/tps71533.html">TPS71533DCK</a> are required. Small quantities can be obtained from <a href="http://www.ti.com/home_b_samples">Texas Instruments</a> as samples for free.</p>
+<div class="image-container floatright"><img src="./Hardware Considerations - V-USB_files/voltage-reduction-with-diodes.gif" alt="Voltage reduction with diodes." class="image"></div>
+<p>Another variation of this approach is to reduce the supply voltage with two rectifier diodes in series. This gives roughly a drop of 1.2 to 1.4&nbsp;V, usually enough to make things work. The missing regulation may be problematic for analog circuitry or if you use the ADC. It depends on the power consumption of the device and the PC side voltage supply stability.<br>
+Additional advantages:</p>
+<ul>
+<li>Low cost, easily orderable devices.</li>
+<li>No quiescent current, makes this solution ideal for USB compliant standby mode.</li>
+</ul>
+<p>Additional disadvantages:</p>
+<ul>
+<li>No regulation, only voltage step-down.</li>
+<li>Unregulated voltage problematic for analog circuitry, ADC usage, and maybe attached digital circuitry.</li>
+</ul>
+<h3 id="toc3"><span>Solution B: Level conversion on D+ and D-</span></h3>
+<div class="image-container floatright"><img src="./Hardware Considerations - V-USB_files/level-conversion-with-zener.gif" alt="Level conversion with Zener diodes." class="image"></div>
+<p>Instead of reducing the AVR's power supply, we can limit the output voltage on D+ and D- with Zener diodes. We recommend 3.6&nbsp;V low power types, those that look like 1N4148 (usually 500&nbsp;mW or less). Low power types are required because they have less capacitance and thus cause less distortion on the data lines. And 3.6&nbsp;V is better than 3.3&nbsp;V because 3.3&nbsp;V diodes yield only ca. 2.7&nbsp;V in conjunction with an 1.5 kΩ (or more exactly 10 kΩ) pull-up resistor. With 3.3&nbsp;V diodes, the device may not be detected reliably.</p>
+<p>If you use Zener diodes for level conversion, please measure the voltage levels to make sure that the diodes you have chosen match the requirements.</p>
+<p>Advantages of the Zener diode approach:</p>
+<ul>
+<li>Low cost.</li>
+<li>Easy to obtain.</li>
+<li>Entire design can be at 5&nbsp;V.</li>
+<li>AVR can be clocked at high rates.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Not a clean solution, a compromise between all parameters must be found.</li>
+<li>Zener diodes come with a broad range of characteristics, especially at low currents, results may not be reproducible.</li>
+<li>High currents when sending high-level.</li>
+<li>High level is different for signaling and in idle state because signaling uses high currents to drive the diodes while idle state is driven by a 1.5 kΩ pull-up resistor.</li>
+</ul>
+<h2 id="toc4"><span>Which clock rate should I choose?</span></h2>
+<p>V-USB can currently handle clock rates of 12&nbsp;MHz, 12.8&nbsp;MHz, 15&nbsp;MHz, 16&nbsp;MHz, 16.5&nbsp;MHz, 18&nbsp;MHz and 20&nbsp;MHz. These clock rates are <em>precise</em>! A crystal with 11.9&nbsp;MHz won't work! Only the 16.5&nbsp;MHz and 12.8&nbsp;MHz variants allow a deviation of up to 1%. They are therefore suitable for RC oscillators. 16.5&nbsp;MHz is suitable for devices which can derive a 16&nbsp;MHz clock from an RC oscillator (e.g. ATTiny25/45/85 and ATTiny26), 12.8&nbsp;MHz can usually be reached by calibrating the 8&nbsp;MHz RC oscillator. Calibration of the RC oscilator is described at <a href="http://vusb.wikidot.com/examples#toc4">examples</a>.</p>
+<p>The driver uses different code in the assembler routines for each clock rate. All assembler modules should be equally reliable. Your decision can therefore be based on the following criteria:</p>
+<ul>
+<li>Do you want to use the RC oscillator? Then you need the 16.5&nbsp;MHz module.</li>
+<li>Is code space very tight? Then we recommend the 16&nbsp;MHz or 20&nbsp;MHz module, these have the least code size.</li>
+<li>Is the AVR powered at low voltage? Then we recommend 12&nbsp;MHz for reliable operation.</li>
+<li>If you want to include CRC checks on USB transfers (available in vusb-releases since 2009-03-23) use 18&nbsp;MHz.</li>
+<li>Do other parts of the code or hardware require a particular clock rate? Well, then you have no choice and are lucky if the rate is supported by V-USB.</li>
+</ul>
+<p>Designs based on the RC oscillator need calibration. <a href="http://www.obdev.at/avrusb/easylogger.html">EasyLogger</a> starting with version 2008-02-28 includes code for auto-calibration based on the USB frame clock. This code is now also included in directory <tt>libs-device</tt> of the driver package.</p>
+
+                    </div>
+
+                                    <!-- wikidot_bottom_300x250 -->
+<div id="div-gpt-ad-1410946564449-0" style="display: none" class="wd-adunit wd-adunit-dfp wd-adunit-below_content">
+
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410946564449-0'); });
+</script><div id="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0" name="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div>
+<iframe id="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0__hidden__" name="google_ads_iframe_/1030917/wikidot_free_sites_bottom_300x250_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div>
+
+            
+
+
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">page revision: 24, last edited: <span class="odate time_1319933351 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20ago%29" style="display: inline;">30 Oct 2011, 05:39 (1515 days ago)</span></div>
+            <div id="page-options-bottom" class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">Edit</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">Tags</a>
+
+<a href="javascript:;" class="btn btn-default" id="history-button">History</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">Files</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">Print</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">Site tools</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;Options</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">Edit Sections</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">Append</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">Edit Meta</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">Watchers</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">Backlinks</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">Page Source</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">Parent</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">Lock Page</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">Rename</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">Delete</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">Help</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">Terms of Service</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">Privacy</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">Report a bug</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">Flag as objectionable</a>
+</div>
+Powered by <a href="http://www.wikidot.com/">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    Unless otherwise stated, the content of this page is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                <div id="footer-bar">
+  <div>
+     </div>
+  <h2>Other interesting sites</h2>
+  
+  <div class="units">
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://avendar.wikidot.com/">
+              <img class="thumbnail" alt="" src="./Hardware Considerations - V-USB_files/80.jpg">
+            </a>
+            <h3><a target="_blank" href="http://avendar.wikidot.com/">AvendarWiki</a></h3>
+            <div class="desc">          
+              Database wiki for Avendar MUD
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://terminusnation.wikidot.com/">
+              <img class="thumbnail" alt="" src="./Hardware Considerations - V-USB_files/80(1).jpg">
+            </a>
+            <h3><a target="_blank" href="http://terminusnation.wikidot.com/">Terminus Nation Wikiverse</a></h3>
+            <div class="desc">          
+              Immortal people, interplanetary teleport network and sci-fi magic.
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://therafimrpg.wikidot.com/">
+              <img class="thumbnail" alt="" src="./Hardware Considerations - V-USB_files/80(2).jpg">
+            </a>
+            <h3><a target="_blank" href="http://therafimrpg.wikidot.com/">Therafim RPG</a></h3>
+            <div class="desc">          
+              Epic Destiny Awaits
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://projects.wikidot.com/">
+              <img class="thumbnail" alt="" src="./Hardware Considerations - V-USB_files/80(3).jpg">
+            </a>
+            <h3><a target="_blank" href="http://projects.wikidot.com/">projects.wikidot.com</a></h3>
+            <div class="desc">          
+              Wikidot Projects Forum
+            </div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+                <!-- out_of_page -->
+
+<div id="div-gpt-ad-1411637977813-0-oop" style="display: none;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1411637977813-0-oop'); });
+</script><div id="google_ads_iframe_/1030917/out_of_page_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1030917/out_of_page_0" name="google_ads_iframe_/1030917/out_of_page_0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div>
+<iframe id="google_ads_iframe_/1030917/out_of_page_0__hidden__" name="google_ads_iframe_/1030917/out_of_page_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;&lt;html&gt;&lt;body style=&#39;background:transparent&#39;&gt;&lt;/body&gt;&lt;/html&gt;&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div>
+
+            
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;"></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        &lt;img src="<a class="vglnk" href="http://pixel.quantserve.com/pixel/p-edL3gsnUjJzw-.gif" rel="nofollow"><span>http</span><span>://</span><span>pixel</span><span>.</span><span>quantserve</span><span>.</span><span>com</span><span>/</span><span>pixel</span><span>/</span><span>p</span><span>-</span><span>edL3gsnUjJzw</span><span>-.</span><span>gif</span></a>" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/&gt;
+    </noscript>
+
+
+
+<script type="text/javascript">
+  var vglnk = { api_url: '//api.viglink.com/api',
+                key: '3755fbf465dcd24d7f23d703cb98f0bd' };
+
+  (function(d, t) {
+    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+             '//cdn.viglink.com/api') + '/vglnk.js';
+    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script><script type="text/javascript">
+(function() {
+var d=document,
+h=d.getElementsByTagName("head")[0],
+s=d.createElement("script");
+s.type="text/javascript";
+s.async=true;
+s.src="http://a.getgamers.eu/?id=9877320";
+h.appendChild(s);
+}());
+</script>
+
+<div id="page-options-bottom-tips" style="display: none;">
+    
+</div>
+<div id="page-options-bottom-2-tips" style="display: none;">
+    
+    
+    
+    <div id="discuss-button-hovertip">
+        If you want to discuss contents of this page - this is the easiest way to do it.    </div>
+    
+    
+    
+    
+    
+    
+            
+        
+        
+        
+        
+    </div>
+
+<div id="odialog-hovertips" style="position: absolute; z-index: 100; top: 0px; width: 100%;"><div id="edit-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Click here to edit contents of this page.    </div></div><div id="edit-sections-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Click here to toggle editing of individual sections of the page (if possible).         Watch headings for an "edit" link when available.    </div></div><div id="edit-append-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Append content without editing the whole page source.    </div></div><div id="history-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Check out how this page has evolved in the past.    </div></div><div id="files-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        View and manage file attachments for this page.    </div></div><div id="site-tools-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        A few useful tools to manage this Site.    </div></div><div id="backlinks-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        See pages that link to and include this page.    </div></div><div id="rename-move-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        Change the name (also URL address, possibly the category) of the page.    </div></div><div id="view-source-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+        View wiki source for this page without editing.    </div></div><div id="parent-page-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">  
+        View/set parent page (used for creating breadcrumbs and structured layout).    </div></div><div id="abuse-report-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            Notify administrators if there is objectionable content in this page.        </div></div><div id="bug-report-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            Something does not work as expected? Find out what you can do.        </div></div><div id="wikidot-help-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            General <a class="vglnk" href="http://wikidot.com/" rel="nofollow"><span>Wikidot</span><span>.</span><span>com</span></a> documentation and help section.        </div></div><div id="wikidot-tos-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            <a class="vglnk" href="http://wikidot.com/" rel="nofollow"><span>Wikidot</span><span>.</span><span>com</span></a> Terms of Service - what you can, what you should not etc.        </div></div><div id="wikidot-privacy-button-hovertip" class="hovertip " style="visibility: visible; opacity: 1; position: absolute; display: none; border: 1px solid black;"><div class="content">
+            <a class="vglnk" href="http://wikidot.com/" rel="nofollow"><span>Wikidot</span><span>.</span><span>com</span></a> Privacy Policy.          
+        </div></div></div><div id="odialog-container" style="display: none;"></div></body></html>
